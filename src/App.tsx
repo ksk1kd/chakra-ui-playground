@@ -8,6 +8,11 @@ function App() {
     <>
       <div className="container">
         <section>
+          <Heading size="4xl">Pseudo</Heading>
+          <Box _hover={{ bg: 'mint' }}>Hover me</Box>
+        </section>
+
+        <section>
           <Heading size="4xl">Token</Heading>
           <Box bg="mint">Background color mint</Box>
         </section>

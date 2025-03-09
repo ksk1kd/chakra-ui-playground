@@ -8,6 +8,14 @@ function App() {
     <>
       <div className="container">
         <section>
+          <Heading size="4xl">Recipe</Heading>
+          <HStack>
+            <Button size="xl">Click me</Button>
+            <Button size="2xl">Click me</Button>
+          </HStack>
+        </section>
+
+        <section>
           <Heading size="4xl">Input</Heading>
           <Input
             type="text"

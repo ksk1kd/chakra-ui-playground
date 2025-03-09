@@ -1,4 +1,4 @@
-import { Button, HStack, Heading, Input } from '@chakra-ui/react'
+import { Box, Button, HStack, Heading, Input } from '@chakra-ui/react'
 import { useState } from 'react'
 
 function App() {
@@ -7,6 +7,11 @@ function App() {
   return (
     <>
       <div className="container">
+        <section>
+          <Heading size="4xl">Token</Heading>
+          <Box bg="mint">Background color mint</Box>
+        </section>
+
         <section>
           <Heading size="4xl">Recipe</Heading>
           <HStack>

@@ -27,6 +27,13 @@ const customConfig = defineConfig({
     recipes: {
       button: buttonRecipe,
     },
+    tokens: {
+      colors: {
+        mint: {
+          DEFAULT: { value: 'oklch(0.72 0.11 178)' },
+        },
+      },
+    },
   },
 })
 

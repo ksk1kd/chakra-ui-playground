@@ -8,6 +8,16 @@ function App() {
     <>
       <div className="container">
         <section>
+          <Heading size="4xl">Virtual Color</Heading>
+          <Box
+            colorPalette="blue"
+            bg={{ base: 'colorPalette.800', _hover: 'colorPalette.700' }}
+          >
+            Hover me
+          </Box>
+        </section>
+
+        <section>
           <Heading size="4xl">Pseudo</Heading>
           <Box _hover={{ bg: 'mint' }}>Hover me</Box>
         </section>
